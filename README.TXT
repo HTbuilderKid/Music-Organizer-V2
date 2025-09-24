@@ -1,16 +1,5 @@
-Project: music-organizer-v2. A project to collect audio files.
-Authors: David J. Barnes and Michael Kölling
 
-This project is part of the material for the book
+18. Since it simply prints out something, it can be set to 'void' return type: public void listAllFiles()
 
-   Objects First with Java - A Practical Introduction using BlueJ
-   Seventh edition
-   David J. Barnes and Michael Kölling
-
-It is discussed in chapter 4.
-
-To start:
-
-Create a MusicOrganizer object on the object bench.
-Use its methods to add, remove, and play files.
-
+19. Yes, we could. However, that wouldn't be a smart way to do this, since we don't know how many elements the user might want to add. If the user adds 100 files, we'd have to write 100 printsln statements. So instead, just use a loop 
+that repeats as many times as the files of elements in the ArrayList
